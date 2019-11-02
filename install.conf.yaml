@@ -1,0 +1,21 @@
+# Settings
+- defaults:
+    link:
+    create: true
+    relink: true
+    # Swap original file
+    force: true
+
+# TODO: ?
+- clean: ["~", "~/.config"]
+
+# Run shell commands
+- shell:
+    # Install submodules
+    - [git submodule update --init --recursive, Installing submodules]
+
+# Symlink files
+- link:
+    # Git
+    ~/.gitconfig: git/gitconfig
+    ~/.global.gitignore: git/global.gitignore
