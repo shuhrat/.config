@@ -19,3 +19,6 @@
     # Git
     ~/.gitconfig: git/gitconfig
     ~/.global.gitignore: git/global.gitignore
+    # Zsh
+    ~/.zshrc: zsh/zshrc.zsh
+    ~/.zprofile: zsh/zprofile.zsh
